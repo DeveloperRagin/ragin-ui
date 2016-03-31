@@ -1,0 +1,28 @@
+{
+  "name": "ragin-ui",
+  "version": "1.0.0",
+  "authors": [
+    "Glenn Vandeuren <vandeurenglenn@gmail.com>"
+  ],
+  "description": "The Ragin ui",
+  "main": "index.html",
+  "keywords": [
+    "web-components",
+    "ragin",
+    "ragin-ui",
+    "ragin-app"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1.4.0",
+    "ragin-app": "DeveloperRagin/ragin-app"
+  }
+}
