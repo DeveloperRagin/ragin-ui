@@ -24,8 +24,13 @@
     <link rel="import" href="bower_components/ragin-app/ragin-app.html">
   </head>
   <body unresolved>
-    <template is="dom-bind">
-      <ragin-app plugins=""></ragin-app>
+    <template is="dom-bind" id="app">
+      <ragin-app plugins="[[plugins]]"></ragin-app>
     </template>
+
+    <script>
+      var app = document.querySelector('#app');
+      app.plugins = [];
+    </script>
   </body>
 </html>
